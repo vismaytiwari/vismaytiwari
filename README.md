@@ -29,7 +29,7 @@ Building production LLM infrastructure and autonomous agent systems at scale: ev
 ### 📊 GitHub
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vismaytiwari&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vismaytiwari&show_icons=true&theme=transparent&hide_border=true&hide_rank=true" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vismaytiwari&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top languages" />
 </div>
 
