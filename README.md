@@ -42,7 +42,7 @@ Focusing public work around infrastructure-heavy areas:
 - **Databases & Search** — PostgreSQL ecosystem, Valkey/Redis, Lucene, Elasticsearch clients
 - **Cloud & Networking** — AWS EKS, VPC CNI, load balancers, Kubernetes controllers, service mesh
 - **AI Infrastructure** — LLM SDKs, agents, evals, tracing, observability
-- **Backend Systems** — APIs, queues, distributed services, reliability, cost optimization
+- **Backend Systems** — APIs, queues, distributed services, reliability, cost optimization.
 
 ---
 
