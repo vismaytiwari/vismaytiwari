@@ -1,13 +1,11 @@
-<p align="center">
-  <img src="./assets/profile-hero.png" width="100%" alt="A connected workbench of local-first developer tools" />
-</p>
-
 <h1 align="center">Vismay Tiwari</h1>
 
 <p align="center">
   <strong>I build useful systems at the seam between devices, browsers, backends, and AI.</strong>
   <br />
   Backend-heavy engineer · local-first toolmaker · open-source contributor
+  <br />
+  <sub>Distributed systems · Search · Payments · Observability · AI agents · Production LLM infrastructure</sub>
 </p>
 
 <p align="center">
@@ -66,6 +64,37 @@ understandable after the clever part is over.
 
 ---
 
+## Built across the stack
+
+The side projects show how I think. My production work shows how far I can take
+it—from a product surface all the way down through APIs, data systems,
+infrastructure, and reliability.
+
+| Area | Systems I’ve worked on | Technologies |
+|---|---|---|
+| **Backend platforms** | High-throughput APIs, payments, idempotency, reconciliation, and distributed services | Python, Go, Ruby, PostgreSQL, MySQL |
+| **Search & data** | Indexing, analyzers, relevance, low-latency retrieval, and large document collections | Elasticsearch, SQL, Redis |
+| **Events & experimentation** | Kafka pipelines, queues, async workers, A/B testing, segmentation, and rule engines | Kafka, workers, caches, event-driven systems |
+| **AI infrastructure** | Agents, tool-use orchestration, eval pipelines, tracing, debugging, and cost optimization | Python, LLM SDKs, Sentry, Grafana |
+| **Cloud & reliability** | Kubernetes platforms, AWS networking, load balancers, incidents, and performance tuning | AWS, EKS, Kubernetes, Docker, Terraform |
+| **Product engineering** | Browser tools, native macOS utilities, and full-stack product surfaces | TypeScript, React, Swift, AppKit |
+
+<table>
+  <tr>
+    <td align="center"><strong>200M+</strong><br /><sub>users served</sub></td>
+    <td align="center"><strong>200M+</strong><br /><sub>events / day</sub></td>
+    <td align="center"><strong>10M+</strong><br /><sub>search documents</sub></td>
+    <td align="center"><strong>99.99%</strong><br /><sub>payments uptime</sub></td>
+    <td align="center"><strong>~22%</strong><br /><sub>lower LLM cost</sub></td>
+  </tr>
+</table>
+
+That range is deliberate: I’m comfortable moving between product decisions,
+application code, distributed architecture, infrastructure, and the ugly
+production edge cases in between.
+
+---
+
 ## How I like to build
 
 | | Principle | What it means in practice |
@@ -78,20 +107,15 @@ understandable after the clever part is over.
 
 ## Open source
 
-I contribute fixes where SDK behavior, developer experience, and production
-reliability meet.
+I contribute across AI infrastructure, SDKs, developer tooling, testing, and
+backend reliability:
 
-- **Langfuse Python SDK** — improved
-  [model metadata extraction](https://github.com/langfuse/langfuse-python/pull/1728),
-  [structured tool inputs](https://github.com/langfuse/langfuse-python/pull/1719),
-  and [tool-error semantics](https://github.com/langfuse/langfuse-python/pull/1718).
-- **pytest** — added strict
-  [top-level `pytest.toml` validation](https://github.com/pytest-dev/pytest/pull/14646).
-- Also contributing across
-  [LangChain Google](https://github.com/langchain-ai/langchain-google/pull/1864),
-  [LiteLLM](https://github.com/BerriAI/litellm/pull/31559),
-  [MCP Toolbox](https://github.com/googleapis/mcp-toolbox/pull/3539),
-  and [Crush](https://github.com/charmbracelet/crush/pull/3205).
+[**Langfuse**](https://github.com/langfuse/langfuse-python) ·
+[**pytest**](https://github.com/pytest-dev/pytest) ·
+[**LangChain Google**](https://github.com/langchain-ai/langchain-google) ·
+[**LiteLLM**](https://github.com/BerriAI/litellm) ·
+[**MCP Toolbox**](https://github.com/googleapis/mcp-toolbox) ·
+[**Crush**](https://github.com/charmbracelet/crush)
 
 <p>
   <a href="https://github.com/pulls?q=is%3Apr+author%3Avismaytiwari">
@@ -100,35 +124,6 @@ reliability meet.
 </p>
 
 ---
-
-<details>
-  <summary><strong>Production systems and impact</strong></summary>
-  <br />
-  <table>
-    <tr>
-      <td><strong>Backend scale</strong></td>
-      <td>Systems serving 200M+ users, 7–10M DAU, and 200M+ events/day</td>
-    </tr>
-    <tr>
-      <td><strong>Payments</strong></td>
-      <td>Monolith-to-Go/Postgres migration with 99.99% uptime</td>
-    </tr>
-    <tr>
-      <td><strong>Search</strong></td>
-      <td>Low-latency retrieval over 10M+ documents</td>
-    </tr>
-    <tr>
-      <td><strong>Reliability</strong></td>
-      <td>Reduced MySQL lock contention by ~60% and Redis usage by ~30%</td>
-    </tr>
-    <tr>
-      <td><strong>AI infrastructure</strong></td>
-      <td>Agent, evaluation, and observability workflows with ~22% lower multi-LLM cost</td>
-    </tr>
-  </table>
-</details>
-
-<br />
 
 **Working set:** Python · Go · Ruby · TypeScript · Swift · SQL · Kafka · Redis ·
 PostgreSQL · Elasticsearch · Kubernetes · AWS · Docker · Terraform · LLM tooling
