@@ -84,7 +84,7 @@ infrastructure, and reliability.
     <td align="center"><strong>200M+</strong><br /><sub>users served</sub></td>
     <td align="center"><strong>200M+</strong><br /><sub>events / day</sub></td>
     <td align="center"><strong>10M+</strong><br /><sub>search documents</sub></td>
-    <td align="center"><strong>99.99%</strong><br /><sub>payments uptime</sub></td>
+    <td align="center"><strong>99.9999%</strong><br /><sub>payments uptime</sub></td>
     <td align="center"><strong>~22%</strong><br /><sub>lower LLM cost</sub></td>
   </tr>
 </table>
